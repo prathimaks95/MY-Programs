@@ -1,0 +1,8 @@
+def LargestInArray(a):
+    lar=a[0]
+    for i in range(0,len(a)):
+        if(a[i]>lar):
+            lar=a[i]
+    return lar
+
+print(LargestInArray([1,2,3,4,6,3,2,6]))
