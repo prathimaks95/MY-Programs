@@ -1,0 +1,7 @@
+def sumof2no(a,b):
+    sum=0
+    sum=a+b
+    return sum
+
+print(sumof2no(5,3))
+
