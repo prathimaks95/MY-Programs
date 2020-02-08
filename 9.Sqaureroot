@@ -1,0 +1,9 @@
+def sqaure(n):
+    i=1
+    r=1
+    while(r<=n):
+        i=i+1
+        r=i*i
+    return i-1
+
+print(sqaure(4))
