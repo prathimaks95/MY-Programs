@@ -1,0 +1,18 @@
+def Fibornot(n):
+    a=0
+    b=1
+    c=a+b
+    if n<0:
+        print(("Invalid Number"))
+    else:
+        while(c<n):
+            a=b
+            b=c
+            c=a+b
+    if(c==n):
+        print("Is a fib number")
+    else:
+        print("is not a fub no")
+
+Fibornot(3)
+Fibornot(4)
