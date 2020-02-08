@@ -1,0 +1,11 @@
+def SecondLargestInArray(a):
+    first = a[0]
+    second=a[0]
+    for i in range(0, len(a)):
+        if (a[i] > first):
+            second = first
+            first=a[i]
+    return second
+
+
+print(SecondLargestInArray([1, 2, 3, 4, 6, 3, 2]))
