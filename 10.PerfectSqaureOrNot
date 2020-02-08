@@ -1,0 +1,8 @@
+def sqaurerootorNot(n):
+    for i in range(0,n):
+        if i*i==n:
+            print("is a sqaure root")
+
+
+sqaurerootorNot(7)
+sqaurerootorNot(4)
